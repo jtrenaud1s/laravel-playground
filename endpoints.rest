@@ -1,0 +1,29 @@
+GET http://localhost/api/template/1 HTTP/1.1
+
+
+###
+
+
+GET http://localhost/api/templates HTTP/1.1
+
+
+###
+
+
+GET http://localhost/api/template/Template1/pages HTTP/1.1
+
+
+###
+
+
+POST http://localhost/api/page/store HTTP/1.1
+
+{
+  "name": "posted page 1",
+  "template_id": 5
+}
+
+
+
+
+
